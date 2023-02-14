@@ -100,6 +100,7 @@
                                     <p class="para">Symbol: $BGPTOSHI</p>
                                     <p class="para">Type: BEP-20</p>
                                     <p class="para">LP Locked</p>
+                                    <p class="para">3% Max Bag</p>
                                 </div>
                             </div>
                             <div class="right_col">
@@ -108,6 +109,7 @@
                                     <p class="para" style="font-weight: 400 !important;">Initial LP: 1 BNB</p>
                                     <p class="para" style="font-weight: 400 !important;">5% Tax</p>
                                     <p class="para" style="font-weight: 400 !important;">Contract Renounced</p>
+                                    <p class="para" style="font-weight: 400 !important;">3% Max Transaction</p>
                                 </div>
                             </div>
                         </div>
