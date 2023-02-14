@@ -9,7 +9,7 @@
                 <div class="inner">
                     <h1 class="hero_title">Welcome to Baby GPToshi!</h1>
                     <p class="section_info">Meme token born by following the hype of GPToshi @gptoshi!</p>
-                    <p class="section_info">Official CA : <b>0xxxxxxxxxxxxxxx</b></p>
+                    <p class="section_info">Official CA : <b>0xce06a8e6109abc9bd438bd07b3ad56fb49254e5e</b></p>
                     <div class="btn_wrapper d-flex align-items-center">
                         <div class="trade_btn">
                             <a href="https://t.me/BabyGPToshi" class="btn btn-primary" target="_blank">Join Us</a>
