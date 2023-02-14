@@ -107,7 +107,7 @@
                             <div class="right_col">
                                 <div class="inner" >
                                     <p class="para" style="font-weight: 400 !important;">Total Supply: 100,000,000</p>
-                                    <p class="para" style="font-weight: 400 !important;">Initial LP: 1 BNB</p>
+                                    <p class="para" style="font-weight: 400 !important;">Initial LP: 1.5 BNB</p>
                                     <p class="para" style="font-weight: 400 !important;">5% Tax</p>
                                     <p class="para" style="font-weight: 400 !important;">Contract Renounced</p>
                                     <p class="para" style="font-weight: 400 !important;">3% Max Transaction</p>
