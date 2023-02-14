@@ -1,332 +1,200 @@
 @extends('layouts.default')
 @section('content')
 
-<!-- Feature-section -->
-<div class="feature-section pb-70 section-to-header">
+<!--====banner section start====-->
+<section class="home_banner_wrapper" id="#home">
     <div class="container">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-3 pb-30">
-                    <div class="feature-card">
-                        <div class="feature-card-header">
-                            <div class="feature-card-thumb feature-card-thumb-green">
-                                <i class="flaticon-machine-learning-1"></i>
-                            </div>
-                            <span>Low Tax</span>
-                        </div>
-                        <div class="feature-card-body">
-                            <p>4% Tax Buy & Sell</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 pb-30">
-                    <div class="feature-card">
-                        <div class="feature-card-header">
-                            <div class="feature-card-thumb feature-card-thumb-yellow">
-                                <i class="flaticon-voice-recognition"></i>
-                            </div>
-                            <span>Anti Whale & Dump</span>
-                        </div>
-                        <div class="feature-card-body">
-                            <p>4% Max Wallet & Transaction</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 pb-30">
-                    <div class="feature-card">
-                        <div class="feature-card-header">
-                            <div class="feature-card-thumb feature-card-thumb-blue">
-                                <i class="flaticon-machine-learning"></i>
-                            </div>
-                            <span>Low of Supply</span>
-                        </div>
-                        <div class="feature-card-body">
-                            <p>50.000.000 $Erudex Tokens</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 pb-30">
-                    <div class="feature-card">
-                        <div class="feature-card-header">
-                            <div class="feature-card-thumb feature-card-thumb-violet">
-                                <i class="flaticon-processor"></i>
-                            </div>
-                            <span>Initial Liquidity</span>
-                        </div>
-                        <div class="feature-card-body">
-                            <p>2 BNB for Liquidity</p>
+        <div class="row home_banner_row d-flex align-items-center">
+            <div class="col-lg-5">
+                <div class="inner">
+                    <h1 class="hero_title">Welcome to Baby GPToshi!</h1>
+                    <p class="section_info">Meme token born by following the hype of GPToshi @gptoshi!</p>
+                    <div class="btn_wrapper d-flex align-items-center">
+                        <div class="trade_btn">
+                            <a href="https://t.me/BabyGPToshi" class="btn btn-primary" target="_blank">Join Us</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-<!-- Feature-section -->
-<!-- About-section -->
-<section class="about-section bg-off-white pt-100 pb-70" id="about">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6 pb-30">
-                <div class="about-section-item about-item-image text-center">
-                    <img src="{{ asset('images/feature-shape/feature-shape-1.png') }}" alt="shape">
-                </div>
-            </div>
-            <div class="col-lg-6 pb-30">
-                <div class="about-section-item about-item-details">
-                    <div class="section-title section-title-left text-start">
-                        <small>About Us</small>
-                        <h2>Mission Is To Bring The Power Of Erudex AI To Every Business</h2>
-                    </div>
-                    <div class="about-content">
-                        <ul>
-                            <li>Advance Advisory Team</li>
-                            <li>Advance Quality Experts</li>
-                            <li>Many variations of passages</li>
-                            <li>High-Quality Results</li>
-                        </ul>
-                        <a href="#" class="btn main-btn">About Us</a>
-                    </div>
+            <div class="col-lg-7">
+                <div class="inner text-center">
+                    <img src="{{ asset('/images/logo.png') }}" alt="Home Banner Illustration">
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- About-section -->
-<!-- Service-section -->
-<section class="service-section pt-100 pb-70" id="services">
-    <div class="container">
-        <div class="section-title section-title-lg">
-            <small>Services</small>
-            <h2>Our Purpose Is To Deliver Excellence <br> In Service And Execution</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-automation"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Robotic Automation</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-predictive-chart"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Predictive Analytics</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-deep-learning"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Deep Learning</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-data-mining"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Data Mining</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-diagram"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Statistical Modeling</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-machine-learning-2"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Security & Surveillance</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Service-section -->
-<!-- Choose-section -->
-<section class="choose-section pt-100 pb-70 bg-off-white">
-    <div class="container">
-        <div class="section-title">
-            <small>Why Choose Us</small>
-            <h2>Why People Choose Erudex For ML Services</h2>
-        </div>
-        <div class="process-content">
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-lg-4 pb-30">
-                    <div class="process-item process-item-center border">
-                        <div class="process-thumb">
-                            <img src="{{ asset('images/process/process-four.png') }}" alt="shape">
-                        </div>
-                        <div class="process-text">
-                            <h3>Easy Model Building</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 pb-30">
-                    <div class="process-item process-item-center border">
-                        <div class="process-thumb">
-                            <img src="{{ asset('images/process/process-five.png') }}" alt="shape">
-                        </div>
-                        <div class="process-text">
-                            <h3>Robust ML Production Anywhere</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 pb-30">
-                    <div class="process-item process-item-center border">
-                        <div class="process-thumb">
-                            <img src="{{ asset('images/process/process-six.png') }}" alt="shape">
-                        </div>
-                        <div class="process-text">
-                            <h3>Powerful Experimentation</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Choose-section -->
+<!--====banner section end====-->
 
-<!-- Project-section -->
-<section class="project-section pt-min-100 pb-100 bg-off-white" id="projects">
+<!--====slider section start====-->
+<section class="slider_wrapper" id="howitworks">
     <div class="container">
-        <div class="section-title section-title-lg">
-            <h2>Erudex's Projects In Different Domain Of Industry</h2>
-            <p>Our purpose is to deliver excellence in service and execution Our purpose is to deliver excellence in service and Our purpose is to deliver excellence in service.</p>
-        </div>
-    </div>
-    <div class="container-fluid p-md-0">
-        <div class="project-carousel owl-carousel owl-theme default-carousel">
-            <div class="item">
-                <div class="project-flat-card">
-                    <div class="project-flat-thumb">
-                        <a href="#">
-                            <img src="{{ asset('images/cases/case-lg-1.jpg') }}" alt="project">
-                        </a>
-                    </div>
-                    <div class="project-flat-text">
-                        <h3><a href="#">Drone And Robot Training</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="project-flat-card">
-                    <div class="project-flat-thumb">
-                        <a href="#">
-                            <img src="{{ asset('images/cases/case-lg-3.jpg') }}" alt="project">
-                        </a>
-                    </div>
-                    <div class="project-flat-text">
-                        <h3><a href="#">Data Mining Revolution</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="project-flat-card">
-                    <div class="project-flat-thumb">
-                        <a href="#">
-                            <img src="{{ asset('images/cases/case-lg-2.jpg') }}" alt="project">
-                        </a>
-                    </div>
-                    <div class="project-flat-text">
-                        <h3><a href="#">Automatic Project Management</a></h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Project-section -->
 
-<!-- News-section -->
-<section class="news-section pt-min-100 pb-70" id="news">
+    </div>
+</section>
+<!--====slider section end====-->
+<!-- theme option start -->
+
+<!-- theme option end -->
+<!--====work section start====-->
+<section class="work_section" >
     <div class="container">
-        <div class="section-title section-title-lg">
-            <h2>Upcoming News on Erudex AI</h2>
-            <p>Our purpose is to deliver excellence in service and execution Our purpose is to deliver excellence in service and Our purpose is to deliver excellence.</p>
+        <div class="work_wrapper text-center">
+            <h1 class="section_title">How does it work?</h1>
+            <p class="section_info">It's easier than you think, just follow these 3 simple easy steps</p>
         </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="blog-card">
-                    <div class="blog-card-image">
-                        <a href="#">
-                            <img src="{{ asset('images/blogs/blog-1.jpg') }}" alt="blog">
-                        </a>
+        <div class="row work_row d-flex align-items-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="inner text-center">
+                    <div class="content_wrapper d-flex align-items-center justify-content-center">
+                        <div class="content d-flex align-items-center justify-content-center">
+                            <img src="{{ asset('/images/work/deposit.png') }}" alt="Deposit Funds">
+                        </div>
                     </div>
-                    <div class="blog-card-text">
-                        <div class="blog-category">Technology</div>
-                        <h3><a href="#">Is Machine Learning Right Going On Good Way</a></h3>
-                    </div>
+                    <h4 >Buy BNB from your favourites exchanges</h4>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="blog-card">
-                    <div class="blog-card-image">
-                        <a href="#">
-                            <img src="{{ asset('images/blogs/blog-2.jpg') }}" alt="blog">
-                        </a>
+            <div class="col-md-6 col-lg-4">
+                <div class="inner text-center">
+                    <div class="content_wrapper arrow_container d-flex align-items-center justify-content-center">
+                        <div class="content d-flex align-items-center justify-content-center">
+                            <img src="{{ asset('/images/work/market.png') }}" alt="Watch the market">
+                        </div>
                     </div>
-                    <div class="blog-card-text">
-                        <div class="blog-category">Robot</div>
-                        <h3><a href="#">The Current State Of Artificial Intelligence Infographic</a></h3>
-                    </div>
+                    <h4>Search our tokens $BGPTOSHI on Pancakeswap</h4>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 offset-md-3 offset-lg-0 pb-30">
-                <div class="blog-card">
-                    <div class="blog-card-image">
-                        <a href="single-blog.html">
-                            <img src="{{ asset('images/blogs/blog-3.jpg') }}" alt="blog">
-                        </a>
+            <div class="col-md-6 col-lg-4">
+                <div class="inner text-center">
+                    <div class="content_wrapper d-flex align-items-center justify-content-center">
+                        <div class="content d-flex align-items-center justify-content-center">
+                            <img src="{{ asset('/images/work/trade.png') }}" alt="Make a Trade">
+                        </div>
                     </div>
-                    <div class="blog-card-text">
-                        <div class="blog-category">Machine</div>
-                        <h3><a href="#">Our Company As A Global Leader In Big Data</a></h3>
+                    <h4>Buy and hold!</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--====work section end====-->
+
+<!--====buy section start====-->
+<section id="ourtoken">
+    <div class="container">
+        <div class="buy_wrapper">
+            <div class="row buy_row d-flex align-items-center">
+                <div class="col-lg-6 order-last order-lg-first">
+                    <div class="left_inner text-center text-lg-left">
+                        <img src="{{ asset('/images/buy/buy_illustration.png') }}" alt="Buy Illustration">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="right_inner">
+                        <h1 class="section_title">Introducing the $BGPTOSHI Token</h1>
+                        <p class="section_info">As part of our commitment to bringing you the best meme token for GPTOSHI, we're proud to introduce the $BGPTOSHI token. This unique cryptocurrency is designed to be the next hype on Binance Smart Chain.</p>
+                        <div class="inner_row d-flex align-items-center">
+                            <div class="left_col">
+                                <div class="inner">
+                                    <p class="para">Name: Baby GPToshi</p>
+                                    <p class="para">Symbol: $BGPTOSHI</p>
+                                    <p class="para">Type: BEP-20</p>
+                                    <p class="para">LP Locked</p>
+                                </div>
+                            </div>
+                            <div class="right_col">
+                                <div class="inner" >
+                                    <p class="para" style="font-weight: 400 !important;">Total Supply: 100,000,000</p>
+                                    <p class="para" style="font-weight: 400 !important;">Initial LP: 1 BNB</p>
+                                    <p class="para" style="font-weight: 400 !important;">5% Tax</p>
+                                    <p class="para" style="font-weight: 400 !important;">Contract Renounced</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- News-section -->
-<!-- Newsletter-section -->
-<section class="newsletter-section pt-min-100 pb-100 page-bg page-bg-2 page-bg-overlay">
-    <div class="container position-relative">
-        <div class="section-title section-title-white">
-            <h2>Subscribe For Erudex's Newsletter</h2>
-            <p>Subscribe to our newsletter & stay updated</p>
-        </div>
-        <form class="newsletter-form">
-            <div class="form-group m-0 newsletter-form">
-                <input type="text" name="EMAIL" id="emails" class="form-control" placeholder="Enter Address*" required>
-                <button class="btn main-btn" type="submit">Subscribe</button>
+<!--====buy section end====-->
+
+<!--====play section start====-->
+<section id="highlights">
+    <div class="container">
+        <div class="row play_row d-flex align-items-center">
+            <div class="col-lg-5">
+                <div class="inner">
+                    <h1 class="section_title">Baby GPToshi Advantage</h1>
+                    <p class="section_info">At Baby GPToshi AI, we can generate image by text using the old of GPToshi AI.</p>
+                    <div class="inner_row d-flex align-items-center">
+                        <div class="inner_col">
+                            <div class="left_col">
+                                <img src="{{ asset('/images/play/payment.png') }}" alt="Secure Payments">
+                            </div>
+                        </div>
+                        <div class="inner_col">
+                            <div class="right_col">
+                                <h7>Strong community will bring more hype</h7>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner_row d-flex align-items-center">
+                        <div class="inner_col">
+                            <div class="left_col">
+                                <img src="{{ asset('/images/play/transparent.png') }}" alt="Transparent">
+                            </div>
+                        </div>
+                        <div class="inner_col">
+                            <div class="right_col">
+                                <h7>The best telegram community on BSC</h7>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inner_row d-flex align-items-center">
+                        <div class="inner_col">
+                            <div class="left_col">
+                                <img src="{{ asset('/images/play/support.png') }}" alt="24/7 Support">
+                            </div>
+                        </div>
+                        <div class="inner_col">
+                            <div class="right_col">
+                                <h7>The $BGPTOSHI token for even more benefits and features</h7>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div id="validator-newsletter" class="form-result"></div>
-        </form>
+            <div class="col-lg-7">
+                <div class="inner text-center text-lg-end">
+                    <img src="{{ asset('/images/play/illustration.png') }}" alt="Play Illustration">
+                </div>
+            </div>
+        </div>
     </div>
 </section>
-<!-- Newsletter-section -->
+<!--====play section end====-->
+
+<!--====invite section start====-->
+<section>
+    <div class="container">
+        <div class="invite_wrapper">
+            <div class="row invite_row d-flex align-items-center">
+                <div class="col-lg-8">
+                    <div class="inner">
+                        <h1>Join Baby GPToshi Community</h1>
+                        <p >Ready to start your journey with Baby GPToshi AI? Join our community today to get exclusive access to our Telegram bot and all its amazing features. <p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="inner text-left text-lg-center">
+                        <a href="https://t.me/BabyGPToshi" class="btn btn-primary" target="_blank">JOIN US ON TELEGRAM</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--====invite section end====-->
 @stop

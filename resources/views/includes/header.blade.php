@@ -1,97 +1,58 @@
-<!-- Preloader -->
-<div class="preloader">
-    <div class="preloader-wrapper">
-        <div class="preloader-content">
-            <div class="blob-1"></div>
-          <div class="blob-2"></div>
+<!--===preloader start===-->
+<div class="loader_wrapper" id="preloader" >
+    <div class="loader">
+        <div class="face">
+            <div class="circle"></div>
+        </div>
+        <div class="face">
+            <div class="circle sd"></div>
+        </div>
+        <div class="percent">
+            <span class="counterr">100</span><span class="per">%</span>
         </div>
     </div>
 </div>
-<!-- Preloader -->
-<!-- Navbar -->
-<div class="fixed-top bg-white">
-    <div class="navbar-area sticky-black">
+<!--===preloader end===-->
+
+<!--====header navbar start====-->
+<header>
+    <nav class="navbar fixed-top navbar-expand-lg">
         <div class="container">
-            <div class="mobile-nav">
-                <a href="#" class="mobile-brand">
-                    <img src="{{ asset('images/logo.png') }}" alt="logo" class="logo">
-                </a>
-                <div class="navbar-option">
-                    <div class="navbar-option-item">
-                        <button type="button">
-                            <i class="flaticon-user" ></i>
-                        </button>
-                    </div>
-                    <div class="navbar-option-item side-topbar-option">
-                        <button type="button">
-                            <i class="flaticon-grid" ></i>
-                        </button>
-                    </div>
-                    <div class="navbar-option-item">
-                        <button type="button" class="search-option">
-                            <i class="icofont-search-1"></i>
-                        </button>
-                    </div>
+            <a class="navbar-brand" href="#" style="color:white">
+                BABY GPTOSHI
+            </a>
+            <div class="d-flex flex-row order-2 order-lg-3 user_info">
+                <div class="group_btn d-none d-sm-block">
+                    <a href="https://pancakeswap.finance/swap?outputCurrency=0x" class="group_link log_in registration">Buy $BGPTOSHI</a>
                 </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navDefault" aria-controls="navDefault" aria-expanded="false" aria-label="Toggle navigation" id="toggleIcon">
+                    <span class="bar_one"></span>
+                    <span class="bar_two"></span>
+                    <span class="bar_three"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end order-3 order-lg-2" id="navDefault">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#howitworks">How it Works</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ourtoken">Our Token</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#highlights">Highlights</a>
+                    </li>
+                    <li class="nav-item d-block d-sm-none">
+                        <a class="nav-link registration" href="https://pancakeswap.finance/swap?outputCurrency=0x">Buy $BGPTOSHI</a>
+                    </li>
+
+
+                </ul>
             </div>
         </div>
-        <div class="main-nav">
-            <div class="container">
-                <nav class="navbar navbar-expand-md navbar-light">
-                    <a class="navbar-brand" href="#">
-                        <img src="{{ asset('images/logo.png') }}" alt="logo" class="logo">
-                    </a>
-                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">HOME</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a href="#about" class="nav-link">ABOUT US</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a href="#services" class="nav-link">SERVICES</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a href="#projects" class="nav-link">PROJECTS</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a href="#news" class="nav-link">NEWS</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="navbar-option">
-                        <div class="navbar-option-item">
-                            <a href="#" class="btn main-btn">More Features</a>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Navbar -->
-<!-- Header -->
-<header class="header header-bg header-bottom-space header-bg-image">
-    <div class="container-fluid p-lg-0 custom-container-fluid">
-        <div class="row m-lg-0 align-items-center">
-            <div class="col-lg-6 p-lg-0">
-                <div class="max-585 ms-lg-auto">
-                    <div class="header-content header-content-white m-0">
-                        <h1>Best Machine Learning Product Creator</h1>
-                        <p>Transforming businesses with Artificial Intelligence</p>
-                        <div class="button-group button-group-animated">
-                            <a href="https://poocoin.app/tokens/" class="btn main-btn">Poocoin Chart</a>
-                            <a href="https://t.me/ErudexAiPortal" class="btn main-btn main-btn-white">Telegram Group</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </nav>
 </header>
-<!-- Header -->
+<!--====header navbar end====-->
