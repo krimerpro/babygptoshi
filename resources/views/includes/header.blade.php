@@ -23,7 +23,7 @@
             </a>
             <div class="d-flex flex-row order-2 order-lg-3 user_info">
                 <div class="group_btn d-none d-sm-block">
-                    <a href="https://pancakeswap.finance/swap?outputCurrency=0x" class="group_link log_in registration">Buy $BGPTOSHI</a>
+                    <a href="https://pancakeswap.finance/swap?outputCurrency=0xce06a8e6109abc9bd438bd07b3ad56fb49254e5e" class="group_link log_in registration">Buy $BGPTOSHI</a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navDefault" aria-controls="navDefault" aria-expanded="false" aria-label="Toggle navigation" id="toggleIcon">
                     <span class="bar_one"></span>
@@ -46,7 +46,7 @@
                         <a class="nav-link" href="#highlights">Highlights</a>
                     </li>
                     <li class="nav-item d-block d-sm-none">
-                        <a class="nav-link registration" href="https://pancakeswap.finance/swap?outputCurrency=0x">Buy $BGPTOSHI</a>
+                        <a class="nav-link registration" href="https://pancakeswap.finance/swap?outputCurrency=0xce06a8e6109abc9bd438bd07b3ad56fb49254e5e">Buy $BGPTOSHI</a>
                     </li>
 
 
